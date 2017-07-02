@@ -1,0 +1,94 @@
+Flare should destroy all ghosts!
+
+give monsters special abilities
+	one monster will destroy a random inventory item when it attacks (50% chance maybe) -- DONE
+
+	
+Room ideas:
+	a room where YOU are invisible --NOPE
+	a room that heals you up to max normal health (if you have enough rooms that are rough enough, maybe make it rare)
+	a room (or item) where you can walk through stuff (but not hit anything?) -- NOPE
+
+
+Make the SPEED last 6 turns, allowing monsters to move if Turn^2 <> 0 -- DONE
+Make the Alpha Button shout out a "spell" (only works once per floor if items appear) -- MAYBE
+	-has a small chance of making the monsters freeze for a turn (speed) 
+	-has a small chance of making an item appear
+or make alpha Fire something for damage -- MAYBE
+	third spot below HP and LEVEL
+	count of "rocks" or whatever you throw
+	have to figure out where the closest monster is, or just have them hit the arrow key
+
+
+going to cap level at 25 (250 HP cap)
+no monsters can be higher than 25 exp points (Strength)
+starting at level 23, any experience over 225 MUST be what takes you to the next level
+room obviously must cap at 255
+
+
+random messages when entering room (maybe during combat)
+	-"the demon bellows 'get him!'"
+mental hospital theme
+	you get locked up for being crazy, you think that hell is taking over
+	then, while locked up, it happens
+		(or so it appears to your character)
+		at the end, turns out, you really were crazy
+			you were killing people the whole time
+
+maybe add "boss stages" if there's enough space
+	badass that takes up two or four spaces, can't avoid him
+
+
+
+For attack, try rand%(lvl^1.15)+(lvl^.75)
+
+(C+L1) = actual items on map
+(C+L1) + 112 = 0's and 1's to make sure monster doesn't move multiple times per turn
+(C+L1) + 224 = monster HP
+(C+L1) + 336 = monster lvl (and EXP value)
+
+
+L2(1) = Room
+L2(2) = Experience points
+L2(3) = HP
+L2(4) = Entrance Location determinant
+L2(5) = getkey value
+L2(6) = cursor location
+L2(7) = character pos x
+L2(8) = character pox y
+L2(9) = message number
+L2(10) = Temporarily hold monster in case you move it
+L2(11) = Temporarily hold monster's HP in case you move it
+L2(12) = character level
+L2(13) = Bezerker (0=no, 1-5 = yes)
+L2(14) = has monster moved yet? (0=no, anything else = yes)
+L2(15) = temporarily hold a monster's level in case you move it
+L2(16) = contrast
+L2(17) = new room generate? 0 = no, 1 = yes
+L2(18-22) = inventory
+L2(23) = just cleared out of inventory (1 = yes, 0 = no, 2=yes, but used an item)
+L2(24) = darkness? 20 = yes, 0 = no
+L2(25) = already locked the door? 0 = no, 1 = yes
+L2(26) = speed? 0 = no, 1-3 = yes
+L2(27) = gas room? 20 = yes, everything else = no
+L2(28) = progress text? 1 = yes, 0 = no
+L2(29) = final boss placed? 1 = yes, 0 = no
+L2(30) = endgame? 1 = yes, 0 = no
+L2(31) = number of minions
+L2(32) = ghost gen position
+L2(33) = monster generated on this level? 0 = no, anything else = yes
+L2(34) = first launching the game? 1 = yes, 0 = no
+L2(35) = number of doors locked
+L2(36) = which wall to draw?
+L2(37) = big eyeball teleport? 0 = no, 1 = yes
+L2(38) = holds the value of the monster whose turn it is. used for destroy item
+L2(39) = love scene starting contrast
+
+
+
+
+NOTES: used Axe and Crabcake.
+	MirageOS is not recommended (test this, however).
+	Builderboy's flame routine
+	matrey...guy... answered some silly questions of mine
+
