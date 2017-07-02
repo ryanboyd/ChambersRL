@@ -1,3 +1,5 @@
+![Title Screen](https://github.com/ryanboyd/ChambersRL/blob/master/screenshots/IntroScreen.gif)
+
 This is the full source code, and the full history of the source code, for [ChambersRL](http://www.ticalc.org/archives/files/fileinfo/452/45229.html) (i.e., "Chambers, the Roguelike").
 
 This repo contains the evolving source code from every step of development of the game, as well as the compiled versions at various stages, screenshots, design documents (including descriptions of features that were never implemented).
