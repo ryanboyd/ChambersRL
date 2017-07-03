@@ -17,3 +17,20 @@ However, as of today, the game has been downloaded 999 times. In honor of its im
 ![Gas](https://github.com/ryanboyd/ChambersRL/blob/master/screenshots/toxic%20gas.gif)
 
 Enjoy!
+
+
+
+....
+
+
+
+..........
+
+
+Oh, also, there's some hidden bonuses and features that were added to the game around the time of its release. Given the sheer difficulty of the game, it's likely that very, very few people ever actually met all of the challenges necessary to unlock these features. So, without further ado... the BEST ENDING CREDITS!
+
+![BestEnd](https://github.com/ryanboyd/ChambersRL/blob/master/2017-07-02%20-%200%20-%20Best%20Ending%20Bonuses/ending%20best.gif)
+
+...and one for the road:
+
+![loveisspooky](https://github.com/ryanboyd/ChambersRL/blob/master/2017-07-02%20-%200%20-%20Best%20Ending%20Bonuses/Love%20Can%20Be%20Spooky.png)
